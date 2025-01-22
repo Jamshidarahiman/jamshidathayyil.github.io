@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Customer Analysis for a Bike Shop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Data Analyst Portfolio</strong> <span>by Jamshida Thayyil</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#footer">Contact</a></li>
+						 <div class="dropup">
+							<button class="dropbtn">Portfolio Projects</button>
+							  <div class="dropup-content">
+									<a href="python.html">Python</a>
+									<!-- <a href="r.html">R</a> -->
+									<a href="sql.html">SQL</a>
+									<a href="excel.html">Excel</a>
+									<a href="tableau.html">Tableau</a>
+									<a href="powerbi.html">Power BI</a>
+							</div>
+						 </div>	
+					</ul>						
+				</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+						
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Project Details</h1>
+									</header>
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+									<h2>Introduction</h2>
+									<ul>
+										<li><strong>Objective:</strong> The objective is to determine the ideal customer profile for a bike shop by analyzing various demographic and behavioral factors.</li>
+										<li><strong>Background:</strong> The dataset includes 1,026 records on customer demographics, preferences, and purchasing behavior. After data cleaning, the final dataset comprises 1,000 records.</li>
+										<li><strong>Scope:</strong> The analysis focuses on identifying patterns in age, income, education, occupation, and other factors influencing bike purchases.</li>
+									</ul>
+							
+									<a href="https://github.com/Jamshidarahiman/Customer-Analysis-for-a-bike-shop-using-excel" target="_blank">GitHub Link</a>
+									<p></p>
+
+									<h2>Data Description</h2>
+									<ul>
+										<li><strong>Dataset Overview:</strong> The dataset contains the following variables: Marital Status, Gender, Income, Children, Education, Occupation, Home Owner, Cars, Commute Distance, Region, Age, and Purchased Bike.</li>
+										<li><strong>Data Cleaning Steps:</strong>
+											<ul>
+												<li>Duplicate entries removed, reducing records from 1,026 to 1,000.</li>
+												<li>Standardized categorical data (e.g., "m" to "male" and "f" to "female").</li>
+												<li>Created age groups for better visualization.</li>
+												<li>Ensured no missing data and proper data types for each field.</li>
+											</ul>
+										</li>
+									</ul>
+							
+									<!-- <p>To start the project, data cleaning was performed to ensure accurate analysis. This included the removal of duplicate entries to avoid potential biases in the dataset. Furthermore, the data was updated to be more interpretable, such as replacing "m" and "f" with "male" and "female", and "m" and "s" with "married" and "single". Age groups were also created to facilitate better visualization of the data. Additionally, I ensured there was no missing data and that each field had the correct data type.</p>
+									<img src="images/excelbikework1.png" alt="Excel Worksheet after Data Cleaning" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 1. This image shows the dataset after it was cleaned.</i></p>
+									<p>These steps were essential to ensure that the data was properly formatted for analysis and would yield accurate results. We initally started with 1026 records and now we have 1000.</p>
+									 -->
+									 <h2>Methodology</h2>
+									 <ul>
+										<li><strong>Data Cleaning:</strong>
+											<ul>
+												<li>Removed duplicates and standardized categorical variables.</li>
+												<li>Grouped continuous variables like age into ranges.</li>
+											</ul>
+										</li>
+										<li><strong>Exploratory Data Analysis (EDA):</strong>
+											<ul>
+												<li>Created pivot tables to identify trends and patterns.</li>
+												<li>Used charts and visualizations to summarize key insights.</li>
+											</ul>
+										</li>
+										<li><strong>Tools Used:</strong> Microsoft Excel for data cleaning, analysis, and visualization.</li>
+									</ul>
+							
+									<h2>Results and Findings</h2>
+									<ul>
+										<li><strong>Age Group:</strong> The largest group of bike purchasers is aged 31-50.</li>
+										<li><strong>Gender:</strong> Gender distribution shows no significant trend.</li>
+										<li><strong>Income Range:</strong> Purchasers predominantly belong to the middle-income range.</li>
+										<li><strong>Education Level:</strong> Most customers have completed partial high school education.</li>
+										<li><strong>Occupation:</strong> Customers in management positions are the most frequent bike purchasers.</li>
+										<li><strong>Region:</strong> North America is the leading region for bike purchases.</li>
+										<li><strong>Commute Distance:</strong> Most purchasers have a commute distance of 0-1 mile.</li>
+										<li><strong>Number of Cars Owned:</strong> The majority of purchasers own 0-1 cars.</li>
+										<li><strong>Children:</strong> Most purchasers do not have children.</li>
+										<li><strong>Marital Status:</strong> Married customers are more likely to purchase bikes.</li>
+										<li><strong>Home Ownership:</strong> No significant correlation between homeownership and purchasing likelihood.</li>
+									</ul>
+									<h2>Discussion</h2>
+									<ul>
+										<li><strong>Interpretation:</strong> The findings suggest that middle-aged, married individuals in management positions from North America are the most common bike purchasers.</li>
+										<li><strong>Implications:</strong> Marketing strategies should focus on these demographics to maximize effectiveness.</li>
+										<li><strong>Limitations:</strong> The analysis relies on a cleaned dataset, which may not capture all potential biases in the original data.</li>
+									</ul>
+							
+									<h2>Recommendations</h2>
+									<ol>
+										<li><strong>Target Age Range 31-50:</strong> Use targeted advertisements, promotions, and events.</li>
+										<li><strong>Focus on Management Professionals:</strong> Offer high-end, performance-focused bikes and accessories.</li>
+										<li><strong>Region-Specific Strategies:</strong> Increase inventory and promotions in North America.</li>
+										<li><strong>Engage Married Customers:</strong> Introduce couple-focused promotions and financing options.</li>
+										<li><strong>Affordable Options for Multi-Car Owners:</strong> Provide financing or payment plans for high-end bikes.</li>
+									</ol>
+							
+									<h2>Conclusion</h2>
+									<p>This analysis has identified key customer segments for the bike shop. By implementing targeted marketing and sales strategies, the shop can attract more ideal customers and enhance overall sales performance.</p>
+        
+
+				
+									<h2>Appendix</h2>
+									<h4>Figures</h4>
+									
+									<img src="images/excelbikework1.png" alt="Excel Analysis" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 1. Cleaned Dataset Snapshot</i></p>
+
+									
+									<img src="images/excelbikepivot.png" alt="Excel Sales Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 2. Pivot Tables & Charts</i></p>
+
+									<img src="images/excelfinalbikedashboard.png" alt="Excel Sales Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 3. Bike Sales Dashboard</i></p>
+
+								
+								</div>
+							</section>
+                        
+					</div>
+
+				<!-- Contact -->
+					<!--<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>-->
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<section class="split">
+					<section>
+						<h4>Contact Information</h4>															
+					</section>
+				</section>
+			</div>
+									<!-- Footer -->
+									<footer id="footer">
+										<div class="inner">
+											<ul class="icons">
+												<li><a href="mailto:jemshidarahiman@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Twitter</span></a></li>
+												<li><a href="https://github.com/Jamshidarahiman" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/jamshida-thayyil/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+											<!-- <ul class="copyright">
+												<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+											</ul> -->
+										</div>
+									</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
